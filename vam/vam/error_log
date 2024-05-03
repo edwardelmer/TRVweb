@@ -1,0 +1,3 @@
+[14-Dec-2022 17:01:13 UTC] PHP Warning:  A non-numeric value encountered in /home/u1471677/public_html/vam/vam/captcha/simple-php-captcha.php on line 63
+[14-Dec-2022 17:01:13 UTC] PHP Deprecated:  Implicit conversion from float 12.790299999999998 to int loses precision in /home/u1471677/public_html/vam/vam/captcha/simple-php-captcha.php on line 63
+[14-Dec-2022 17:01:13 UTC] PHP Fatal error:  __autoload() is no longer supported, use spl_autoload_register() instead in /home/u1471677/public_html/vam/vam/classes/PHPMailer-master/PHPMailerAutoload.php on line 44

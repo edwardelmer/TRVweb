@@ -1,0 +1,137 @@
+<?php
+include_once '/home/u1471677/public_html/crew/core/codon.config.php';
+
+/*
+    $db_user = Config::Get('DBASE_USER');
+    $db_pass = Config::Get('DBASE_PASS');
+    $db_name = Config::Get('DBASE_NAME');
+    $db_server = Config::Get('DBASE_SERVER');
+    
+*/
+          
+
+
+    //connect to mysql db
+    $con = mysqli_connect('localhost', 'u1471677_theredsadmin', 'thereds12345', 'u1471677_theredsvirtual') or die('Error in Connecting: ' . mysqli_error($con));
+
+    //get ivao data
+    $jsondata = file_get_contents('whazzup.json');
+    $online_pilots = json_decode($jsondata, true); 
+ 
+    $sql = "INSERT INTO ivao_pilots(id, ivao_userId, ivao_callsign, ivao_serverId, ivao_softwareTypeId, ivao_softwareVersion, ivao_rating, ivao_data_createdAt, ivao_fpl_id, ivao_fpl_revision, ivao_fpl_aircraftId, ivao_fpl_aircraftNumber, ivao_fpl_departureId, ivao_fpl_arrivalId, ivao_fpl_alternativeId, ivao_fpl_alternative2Id, ivao_fpl_route, ivao_fpl_remarks, ivao_fpl_speed, ivao_fpl_level, ivao_fpl_flightRules, ivao_fpl_flightType, ivao_fpl_eet, ivao_fpl_endurance, ivao_fpl_departureTime, ivao_fpl_actualDepartureTime, ivao_fpl_peopleOnBoard, ivao_fpl_createdAt, ivao_fpl_updatedAt, ivao_aircraft_Equipments, ivao_aircraft_TransponderTypes, ivao_aircraft_icaoCode, ivao_aircraft_model, ivao_aircraft_wakeTurbulence, ivao_aircraft_isMilitary, ivao_aircraft_description, ivao_pilotSession_simulatorId, ivao_tracker_altitude, ivao_tracker_altitudeDifference, ivao_tracker_arrivalDistance, ivao_tracker_departureDistance, ivao_tracker_groundSpeed, ivao_tracker_heading, ivao_tracker_latitude, ivao_tracker_longitude, ivao_tracker_onGround, ivao_tracker_state, ivao_tracker_time, ivao_tracker_timestamp, ivao_tracker_transponder, ivao_tracker_transponderMode)
+    VALUES ";
+    foreach ($online_pilots['clients']['pilots'] as $online_pilot) 
+    {  
+      $sql = $sql." (
+        '".$online_pilots['id']."',
+        '".$online_pilots['userId']."',
+        '".$online_pilots['callsign']."',
+        '".$online_pilots['serverId']."',
+        '".$online_pilots['softwareTypeId']."',
+        '".$online_pilots['softwareVersion']."',
+        '".$online_pilots['rating']."',
+        '".$online_pilots['data_createdAt']."',
+        '".$online_pilots['id']."',
+        '".$online_pilots['revision']."',
+        '".$online_pilots['aircraftId']."',
+        '".$online_pilots['aircraftNumber']."',
+        '".$online_pilots['departureId']."',
+        '".$online_pilots['arrivalId']."',
+        '".$online_pilots['alternativeId']."',
+        '".$online_pilots['alternative2Id']."',
+        '".$online_pilots['route']."',
+        '".$online_pilots['remarks']."',
+        '".$online_pilots['speed']."',
+        '".$online_pilots['level']."',
+        '".$online_pilots['flightRules']."',
+        '".$online_pilots['flightType']."',
+        '".$online_pilots['eet']."',
+        '".$online_pilots['endurance']."',
+        '".$online_pilots['departureTime']."',
+        '".$online_pilots['actualDepartureTime']."',
+        '".$online_pilots['peopleOnBoard']."',
+        '".$online_pilots['createdAt']."',
+        '".$online_pilots['updatedAt']."',
+        '".$online_pilots['Equipments']."',
+        '".$online_pilots['TransponderTypes']."',
+        '".$online_pilots['icaoCode']."',
+        '".$online_pilots['model']."',
+        '".$online_pilots['wakeTurbulence']."',
+        '".$online_pilots['isMilitary']."',
+        '".$online_pilots['description']."',
+        '".$online_pilots['simulatorId']."',
+        '".$online_pilots['altitude']."',
+        '".$online_pilots['altitudeDifference']."',
+        '".$online_pilots['arrivalDistance']."',
+        '".$online_pilots['departureDistance']."',
+        '".$online_pilots['groundSpeed']."',
+        '".$online_pilots['heading']."',
+        '".$online_pilots['latitude']."',
+        '".$online_pilots['longitude']."',
+        '".$online_pilots['onGround']."',
+        '".$online_pilots['state']."',
+        '".$online_pilots['time']."',
+        '".$online_pilots['timestamp']."',
+        '".$online_pilots['transponder']."',
+        '".$online_pilots['transponderMode']."'
+        ),";       
+ }  
+  mysqli_query($connect, substr($sql,0,-1));
+ 
+    
+
+
+/*
+// $id = $online_pilots['id'];
+//             $ivao_userId = $online_pilots['userId'];
+//             $ivao_callsign = $online_pilots['callsign'];
+//             $ivao_serverId = $online_pilots['serverId'];
+//             $ivao_softwareTypeId = $online_pilots['softwareTypeId'];
+//             $ivao_softwareVersion = $online_pilots['softwareVersion'];
+//             $ivao_rating = $online_pilots['rating'];
+//             $ivao_data_createdAt = $online_pilots['data_createdAt'];
+//             $ivao_fpl_id = $online_pilots['id'];
+//             $ivao_fpl_revision = $online_pilots['revision'];
+//             $ivao_fpl_aircraftId = $online_pilots['aircraftId'];
+//             $ivao_fpl_aircraftNumber = $online_pilots['aircraftNumber'];
+//             $ivao_fpl_departureId = $online_pilots['departureId'];
+//             $ivao_fpl_arrivalId = $online_pilots['arrivalId'];
+//             $ivao_fpl_alternativeId = $online_pilots['alternativeId'];
+//             $ivao_fpl_alternative2Id = $online_pilots['alternative2Id'];
+//             $ivao_fpl_route = $online_pilots['route'];
+//             $ivao_fpl_remarks = $online_pilots['remarks'];
+//             $ivao_fpl_speed = $online_pilots['speed'];
+//             $ivao_fpl_level = $online_pilots['level'];
+//             $ivao_fpl_flightRules = $online_pilots['flightRules'];
+//             $ivao_fpl_flightType = $online_pilots['flightType'];
+//             $ivao_fpl_eet = $online_pilots['eet'];
+//             $ivao_fpl_endurance = $online_pilots['endurance'];
+//             $ivao_fpl_departureTime = $online_pilots['departureTime'];
+//             $ivao_fpl_actualDepartureTime = $online_pilots['actualDepartureTime'];
+//             $ivao_fpl_peopleOnBoard = $online_pilots['peopleOnBoard'];
+//             $ivao_fpl_createdAt = $online_pilots['createdAt'];
+//             $ivao_fpl_updatedAt = $online_pilots['updatedAt'];
+//             $ivao_aircraft_Equipments = $online_pilots['Equipments'];
+//             $ivao_aircraft_TransponderTypes = $online_pilots['TransponderTypes'];
+//             $ivao_aircraft_icaoCode = $online_pilots['icaoCode'];
+//             $ivao_aircraft_model = $online_pilots['model'];
+//             $ivao_aircraft_wakeTurbulence = $online_pilots['wakeTurbulence'];
+//             $ivao_aircraft_isMilitary = $online_pilots['isMilitary'];
+//             $ivao_aircraft_description = $online_pilots['description'];
+//             $ivao_pilotSession_simulatorId = $online_pilots['simulatorId'];
+//             $ivao_tracker_altitude = $online_pilots['altitude'];
+//             $ivao_tracker_altitudeDifference = $online_pilots['altitudeDifference'];
+//             $ivao_tracker_arrivalDistance = $online_pilots['arrivalDistance'];
+//             $ivao_tracker_departureDistance = $online_pilots['departureDistance'];
+//             $ivao_tracker_groundSpeed = $online_pilots['groundSpeed'];
+//             $ivao_tracker_heading = $online_pilots['heading'];
+//             $ivao_tracker_latitude = $online_pilots['latitude'];
+//             $ivao_tracker_longitude = $online_pilots['longitude'];
+//             $ivao_tracker_onGround = $online_pilots['onGround'];
+//             $ivao_tracker_state = $online_pilots['state'];
+//             $ivao_tracker_time = $online_pilots['time'];
+//             $ivao_tracker_timestamp = $online_pilots['timestamp'];
+//             $ivao_tracker_transponder = $online_pilots['transponder'];
+//             $ivao_tracker_transponderMode = $online_pilots['transponderMode']
+*/
+?>

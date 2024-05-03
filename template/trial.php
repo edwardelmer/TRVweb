@@ -1,0 +1,17 @@
+<?php
+
+$content = '{ "loan": { "fu": "1046", "vb": "84", "loan_type": "1", "type_cocg": "14", "meeting_place": "PLACE", "meeting_date": "2019-05-29", "creation_date": "2019-05-29 12:49:53", "user_id": "1001-1556", "member": [{ "mem_id": "1", "name": "FIRST MEMBER", "parentage": "PARENTAGE", "cnic": "3393399393393", "gender": "1", "dob": "1994-05-29", "marital_status": "1", "spouse_name": "SPOUSE", "spouse_cnic": "9939439939393", "pres_address": "PRES ADDRESS", "perma_address": "PERMA ADDRESS", "mother_name": "MOTHER NAME", "cell": "94494944949", "loan_amount": "30000", "network": "1", "sim_ownership": "2", "co_status": "3", "occupation_category": "2", "agri_occ": "null", "nonagri_occ": "3", "education": "1", "disability": "2", "religion": "6", "head": "2", "purpose": "2", "repayment_mode": "null", "duration": "4", "purpose_ent": "null", "purpose_agri": "null", "area_unit": "2", "agri_investment": "", "agri_expense": "", "purpose_livestock": "3", "loan_id_mem": "1", "monthly_income": "15000", "monthly_expense": "2000", "monthly_saving": "13000", "yearly_saving": "156000", "male": "2", "female": "2", "children": "2", "cow": "2", "buffalo": "2", "goat": "2", "sheep": "2", "agri_area_unit": "1", "land_own": "3", "land_lease": "3", "house_own": "3", "house_rent": "3", "caste": "CASTE", "active_loan": "1", "bank": [{ "id": "1", "loan_id": "1", "loan_mem_id": "1", "bank_id": "1", "bank_loan": "", "bank_remaining": "2000", "purpose": "1", "purpose_agri": "16", "purpose_livestock": "null", "purpose_ent": "null" }, { "id": "2", "loan_id": "1", "loan_mem_id": "1", "bank_id": "6", "bank_loan": "", "bank_remaining": "500", "purpose": "3", "purpose_agri": "16", "purpose_livestock": "null", "purpose_ent": "14" }] }, { "mem_id": "2", "name": "SECOND MEMBER", "parentage": "PARENTAGE", "cnic": "3939939393399", "gender": "1", "dob": "1994-05-29", "marital_status": "1", "spouse_name": "SPOUSE", "spouse_cnic": "4949949494999", "pres_address": "ADDRESS", "perma_address": "ADDRESS", "mother_name": "MOTHER", "cell": "49494949494", "loan_amount": "20000", "network": "1", "sim_ownership": "2", "co_status": "2", "occupation_category": "2", "agri_occ": "null", "nonagri_occ": "2", "education": "1", "disability": "1", "religion": "1", "head": "1", "purpose": "1", "repayment_mode": "null", "duration": "3", "purpose_ent": "null", "purpose_agri": "16", "area_unit": "1", "agri_investment": "1500", "agri_expense": "2000", "purpose_livestock": "3", "loan_id_mem": "1", "monthly_income": "15000", "monthly_expense": "200", "monthly_saving": "14800", "yearly_saving": "177600", "male": "0", "female": "0", "children": "2", "cow": "2", "buffalo": "2", "goat": "2", "sheep": "2", "agri_area_unit": "1", "land_own": "3", "land_lease": "3", "house_own": "3", "house_rent": "2", "caste": "CASTE 2", "active_loan": "1", "bank": [{ "id": "3", "loan_id": "1", "loan_mem_id": "2", "bank_id": "6", "bank_loan": "", "bank_remaining": "300", "purpose": "1", "purpose_agri": "43", "purpose_livestock": "null", "purpose_ent": "null" }] }] }}';
+
+$json = json_decode($content, true);
+foreach($content['loan']['member'] as $item) {
+  echo($item['bank']);
+  foreach($item['bank'] as $bank_item) { 
+      echo $bank_item;
+   }
+}
+
+
+
+?>
+
+TEST

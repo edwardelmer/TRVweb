@@ -1,0 +1,7 @@
+[17-Dec-2021 00:44:10 UTC] PHP Deprecated:  define(): Declaration of case-insensitive constants is deprecated in /home/u1471677/public_html/crew/core/classes/ezdb/ezdb_base.class.php on line 45
+[17-Dec-2021 00:44:10 UTC] PHP Deprecated:  define(): Declaration of case-insensitive constants is deprecated in /home/u1471677/public_html/crew/core/classes/ezdb/ezdb_base.class.php on line 46
+[17-Dec-2021 00:44:10 UTC] PHP Deprecated:  define(): Declaration of case-insensitive constants is deprecated in /home/u1471677/public_html/crew/core/classes/ezdb/ezdb_base.class.php on line 47
+[17-Dec-2021 00:44:10 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 94208 bytes) in /home/u1471677/public_html/wp/wp-settings.php on line 560
+[14-Nov-2022 17:22:42 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[16-Dec-2022 11:07:13 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[23-Dec-2022 06:46:32 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}

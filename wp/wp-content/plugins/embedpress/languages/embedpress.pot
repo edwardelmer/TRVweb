@@ -1,0 +1,1510 @@
+# Copyright (C) 2021 WPDeveloper
+# This file is distributed under the same license as the EmbedPress plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: EmbedPress 3.1.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/embedpress\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-08-23T05:24:06+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: embedpress\n"
+
+#. Plugin Name of the plugin
+#: EmbedPress/Elementor/Embedpress_Elementor_Integration.php:38
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:23
+msgid "EmbedPress"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://embedpress.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "EmbedPress lets you embed videos, images, posts, audio, maps and upload PDF, DOC, PPT & all other types of content into your WordPress site with one-click and showcase it beautifully for the visitors. 100+ sources supported."
+msgstr ""
+
+#. Author of the plugin
+msgid "WPDeveloper"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpdeveloper.net"
+msgstr ""
+
+#: EmbedPress/Core.php:507
+#: EmbedPress/CoreLegacy.php:308
+#: EmbedPress/Plugins/Plugin.php:158
+msgid "Open settings page"
+msgstr ""
+
+#: EmbedPress/Core.php:508
+#: EmbedPress/CoreLegacy.php:309
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:132
+#: EmbedPress/Ends/Back/Settings/templates/partials/sidebar.php:18
+#: EmbedPress/Plugins/Plugin.php:159
+msgid "Settings"
+msgstr ""
+
+#: EmbedPress/Core.php:512
+#: EmbedPress/CoreLegacy.php:313
+#: EmbedPress/Plugins/Plugin.php:163
+msgid "Go Pro"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:24
+msgid "EmbedPress Document"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:66
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:83
+msgid "Content Settings"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:73
+msgid "Document Type"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:77
+msgid "File"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:78
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:115
+msgid "URL"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:87
+msgid "Upload File"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:104
+msgid "Upload a file or pick one from your media library for embed. Supported File Type: PDF, DOC/DOCX, PPT/PPTX, XLS/XLSX etc."
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:117
+msgid "https://your-link.com/file.pdf"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:131
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1408
+#: Gutenberg/src/document/edit.js:201
+msgid "Width"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:154
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1427
+#: Gutenberg/src/document/edit.js:213
+msgid "Height"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:176
+msgid "Alignment"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:180
+msgid "Left"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:184
+msgid "Center"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:188
+msgid "Right"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:199
+msgid "Powered By"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:201
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:446
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:466
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:482
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:498
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:515
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:531
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:547
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:827
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:839
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:870
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:899
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:917
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:933
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:951
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:968
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:985
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1001
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1017
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:78
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:96
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:113
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:128
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:144
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:163
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:182
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:127
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:156
+msgid "Show"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:202
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:445
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:465
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:481
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:497
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:514
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:530
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:546
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:826
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:838
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:869
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:898
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:916
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:932
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:950
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:967
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:984
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1000
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1016
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:74
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:92
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:109
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:124
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:140
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:159
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:178
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:128
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:155
+msgid "Hide"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Document.php:257
+msgid "Powered By EmbedPress"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:76
+msgid "<sup class=\"embedpress-pro-label\" style=\"color:red\">Pro</sup>"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:91
+msgid "Source Name"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:96
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:380
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:398
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:216
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:232
+msgid "Default"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:97
+#: EmbedPress/Ends/Back/Settings/templates/partials/sidebar.php:42
+msgid "YouTube"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:98
+#: EmbedPress/Ends/Back/Settings/templates/partials/sidebar.php:48
+msgid "Vimeo"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:99
+#: EmbedPress/Ends/Back/Settings/templates/partials/sidebar.php:66
+msgid "Dailymotion"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:100
+#: EmbedPress/Ends/Back/Settings/templates/partials/sidebar.php:54
+msgid "Wistia"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:101
+#: EmbedPress/Ends/Back/Settings/templates/partials/sidebar.php:60
+msgid "Twitch"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:102
+#: EmbedPress/Ends/Back/Settings/templates/partials/sidebar.php:72
+msgid "SoundCloud"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:110
+msgid "Embedded Link"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:115
+msgid "Enter your Link"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:123
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1170
+msgid "Player Background"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:124
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1171
+#: EmbedPress/Ends/Back/Settings/templates/spotify.php:31
+msgid "Dynamic option will use the most vibrant color from the album art."
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:129
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1176
+msgid "Dynamic"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:130
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1177
+msgid "Black & White"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:141
+msgid "Start Time"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:143
+msgid "Specify a start time (in seconds)"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:165
+msgid "Go Premium for More Features"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:172
+msgid "Unlock more possibilities"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:197
+msgid "End Time"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:199
+msgid "Specify an end time (in seconds)"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:206
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:476
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:573
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:893
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1029
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:37
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:51
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:32
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:34
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:116
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:45
+msgid "Auto Play"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:217
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:618
+msgid "Player Options"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:225
+msgid "Controls"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:230
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:97
+msgid "Display immediately"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:231
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:98
+msgid "Display after user initiation"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:232
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:99
+msgid "Hide controls"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:240
+msgid "Fullscreen button"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:254
+msgid "Video Annotations"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:259
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:301
+msgid "Display"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:260
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:302
+msgid "Do Not Display"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:269
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:61
+msgid "Progress Bar Color"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:274
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:66
+msgid "Red"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:275
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:67
+msgid "White"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:283
+msgid "Closed Captions %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:296
+msgid "Modest Branding %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:315
+msgid "Related Videos %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:333
+msgid "YouTube Subscriber Option"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:344
+msgid "Channel Link or ID %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:349
+msgid "Enter Channel Link or ID"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:359
+msgid "Subscription Text %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:364
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:202
+msgid "Eg. Don't miss out! Subscribe"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:375
+msgid "Layout %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:381
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:217
+msgid "Full"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:393
+msgid "Theme %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:399
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:850
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1192
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:70
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:233
+msgid "Dark"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:411
+msgid "Subscriber Count %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:431
+msgid "YouTube Live Chat Option"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:440
+msgid "Show YouTube Live Chat"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:460
+msgid "Logo %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:492
+msgid "Play On Mobile"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:509
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:71
+msgid "Mute"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:525
+msgid "Player Controls"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:541
+msgid "Video Info"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:559
+msgid "Control Color"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:587
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:880
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1044
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:44
+msgid "Scheme"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:602
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:174
+msgid "Captions Enabled By Default"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:632
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:39
+msgid "Fullscreen Button"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:646
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:71
+msgid "Small Play Button"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:663
+msgid "Resumable"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:678
+msgid "Focus"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:693
+msgid "Captions %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:707
+msgid "Playbar "
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:721
+msgid "Volume Control %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:737
+msgid "Volume %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:759
+msgid "Rewind"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:773
+msgid "Rewind time"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:800
+msgid "Autoplay"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:802
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:813
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:42
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:59
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:76
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:95
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:113
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:131
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:34
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:56
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:37
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:53
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:83
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:99
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:39
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:55
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:72
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:89
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:114
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:130
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:146
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:44
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:60
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:76
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:92
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:121
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:146
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:162
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:179
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:196
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:212
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:50
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:79
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:111
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:172
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:248
+msgid "No"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:803
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:814
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:46
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:63
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:80
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:99
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:117
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:135
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:38
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:60
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:41
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:57
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:87
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:103
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:43
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:59
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:76
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:93
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:118
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:134
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:150
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:48
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:64
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:80
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:96
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:125
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:150
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:166
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:183
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:200
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:216
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:54
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:83
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:115
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:176
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:252
+msgid "Yes"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:811
+msgid "Allow Full Screen Video"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:824
+msgid "Show Chat %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:836
+msgid "Mute on start"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:846
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:65
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:227
+msgid "Theme"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:851
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1191
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:71
+msgid "Light"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:864
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:29
+msgid "Visual Player"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:911
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:104
+msgid "Share Button"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:927
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:119
+msgid "Comments"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:945
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:135
+msgid "Artwork"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:962
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:154
+msgid "Play Count"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:979
+msgid "User Name"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:995
+msgid "Buy Button %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1011
+msgid "Download Button %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1057
+msgid "Author Information"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1069
+msgid "Title"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1085
+msgid "Author"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1099
+msgid "Avatar"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1113
+msgid "Loop %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1128
+msgid "Auto Pause %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1143
+msgid "DNT %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1148
+msgid "Set this parameter to \"yes\" will block the player from tracking any session data, including all cookies"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1186
+msgid "Follow Widget Background"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1209
+#: EmbedPress/Includes/Traits/Branding.php:26
+msgid "Custom Logo & CTA"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1218
+#: EmbedPress/Includes/Traits/Branding.php:34
+msgid "Custom Logo %s"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1219
+#: EmbedPress/Includes/Traits/Branding.php:35
+msgid "Leave it empty to hide it"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1240
+#: EmbedPress/Includes/Traits/Branding.php:55
+msgid "Logo X Position"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1241
+#: EmbedPress/Includes/Traits/Branding.php:56
+msgid "Change this number to move your logo in horizontal direction."
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1269
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:165
+#: EmbedPress/Includes/Traits/Branding.php:84
+msgid "Logo Y Position (%)"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1270
+#: EmbedPress/Includes/Traits/Branding.php:85
+msgid "Change this number to move your logo in vertical direction."
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1304
+#: EmbedPress/Includes/Traits/Branding.php:119
+msgid "Normal"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1310
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1338
+#: EmbedPress/Includes/Traits/Branding.php:125
+#: EmbedPress/Includes/Traits/Branding.php:153
+msgid "Logo Opacity"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1332
+#: EmbedPress/Includes/Traits/Branding.php:147
+msgid "Hover"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1363
+#: EmbedPress/Includes/Traits/Branding.php:178
+msgid "CTA link for Logo"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1364
+#: EmbedPress/Includes/Traits/Branding.php:179
+msgid "You can show the logo inside a link. Leave it empty to hide it"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1369
+#: EmbedPress/Includes/Traits/Branding.php:184
+msgid "https://your-link.com"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1381
+msgid "Style"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1446
+msgid "Margin"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1457
+msgid "Padding"
+msgstr ""
+
+#: EmbedPress/Elementor/Widgets/Embedpress_Elementor.php:1469
+msgid "Background"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/EmbedpressSettings.php:117
+msgid "EmbedPress Settings"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/EmbedpressSettings.php:160
+msgid "(Coming soon)"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/EmbedpressSettings.php:161
+#: EmbedPress/Ends/Back/Settings/templates/partials/toast-message.php:4
+msgid "Settings Updated"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/EmbedpressSettings.php:162
+#: EmbedPress/Ends/Back/Settings/templates/partials/toast-message.php:8
+msgid "Ops! Something went wrong."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:36
+msgid "Global Branding Settings"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:51
+msgid "Custom Logo"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:58
+msgid "For Document"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:65
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:155
+#: EmbedPress/Ends/Back/Settings/templates/general.php:64
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:189
+#: EmbedPress/Ends/Back/Settings/templates/spotify.php:84
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:110
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:157
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:230
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:261
+msgid "Save Changes"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:125
+msgid "%s Custom Branding"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:139
+msgid "Click To Upload"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:151
+msgid "Logo Opacity (%)"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:158
+msgid "Logo X Position (%)"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:172
+msgid "Call to Action Link"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:176
+msgid "You may link the logo to any CTA link."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/custom-logo.php:181
+msgid "Live Preview"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:20
+msgid "Dailymotion Settings"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:27
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:24
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:26
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:31
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:37
+msgid "Start Time (In Seconds)"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:30
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:27
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:29
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:34
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:40
+msgid "You can put a custom time in seconds to start video. Example: 500"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:49
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:63
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:44
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:46
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:128
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:57
+msgid "Automatically start to play the videos when the player loads."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:54
+msgid "Autoplay On Mobile"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:66
+msgid "You can control autoplay on mobile. Only works if Autoplay option is enabled."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:83
+msgid "Mute the video that is auto played"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:90
+msgid "Display Player Controls"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:102
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:102
+msgid "Indicates whether the video player controls are displayed."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:108
+msgid "Display Video Info"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:120
+msgid "Indicates whether the video information is displayed."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:126
+msgid "Show Logo"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:145
+msgid "Controls Color"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/dailymotion.php:149
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:105
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:136
+msgid "Specify the color of the video controls."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:21
+msgid "It supports 100+ providers. Click to read the docs"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:32
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:43
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:54
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:65
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:76
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:87
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:98
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:109
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:120
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:131
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:142
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:161
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:173
+#: EmbedPress/Ends/Back/Settings/templates/partials/footer.php:12
+#: EmbedPress/Ends/Back/Settings/templates/partials/footer.php:15
+msgid "Documentation"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:190
+msgid "Preview In Frontend"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/elements.php:198
+msgid "Preview In Editor"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/general.php:21
+msgid "Embed iFrame Height"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/general.php:30
+msgid "Embed iFrame Width"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/general.php:39
+msgid "Lazy Load"
+msgstr ""
+
+#. translators: % means coming soon text markup
+#: EmbedPress/Ends/Back/Settings/templates/general.php:51
+msgid "Loading Animation %s"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/go-premium.php:6
+msgid "Why upgrade to Premium Version?"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/go-premium.php:7
+msgid "The premium version helps us to continue development of the product incorporating even more features and enhancements. You will also get world class support from our dedicated team, 24/7."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/go-premium.php:8
+msgid "Get Premium Version"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/alert-coming-soon.php:7
+#: EmbedPress/Ends/Back/Settings/templates/partials/alert-pro.php:4
+msgid "Opps..."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/alert-coming-soon.php:8
+msgid "This feature is coming soon to the <a href=\"%s\" target=\"_blank\">Premium</a> Version"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/alert-coming-soon.php:9
+#: EmbedPress/Ends/Back/Settings/templates/partials/alert-pro.php:6
+msgid "Close"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/alert-pro.php:5
+msgid "You need to upgrade to the <a href=\"%s\" target=\"_blank\">Premium</a> Version to use this feature"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/footer.php:13
+msgid ""
+"Get started by spending some time with the documentation to get familiar with EmbedPress. Build awesome websites for you or your clients with ease.\n"
+""
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/footer.php:21
+msgid "Need Help?"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/footer.php:22
+msgid "Stuck with something? Get help from the community on"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/footer.php:23
+msgid "WordPress.org Forum"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/footer.php:24
+msgid "Facebook Community"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/footer.php:25
+msgid "WPDeveloper website."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/footer.php:26
+msgid "Get Support"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/footer.php:32
+msgid "Show Your Love"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/footer.php:33
+msgid "We love to have you in the EmbedPress family. We are making it more awesome everyday. Take your 2 minutes to review the plugin and spread the love to encourage us to keep it going."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/footer.php:34
+msgid "Leave A Review"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/sidebar.php:24
+#: EmbedPress/Ends/Back/Settings/templates/shortcode.php:8
+msgid "Shortcode"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/sidebar.php:79
+msgid "Spotify"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/sidebar.php:92
+msgid "Elements"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/sidebar.php:106
+msgid "Go Premium"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/sidebar.php:115
+msgid "License"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/partials/toast-message.php:11
+msgid "Please provide valid data"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/shortcode.php:10
+msgid "EmbedPress has direct integration with Classic, Gutenberg and Elementor Editor. But for other page editor you can use EmbedPress shortcode feature. To generate shortcode simply insert your link, click %s'Generate'%s button and then copy your shortcode. For details, check out this %sdocumentation%s."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/shortcode.php:13
+msgid "Place your link here to generate shortcode"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/shortcode.php:15
+msgid "Generate"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:22
+msgid "SoundCloud Settings"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:69
+msgid "Buy Button"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:87
+msgid "Download Button"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:147
+msgid "Artwork option works when Visual option is disabled"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:166
+msgid "Play count option works when Visual option is disabled"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/soundcloud.php:173
+msgid "Username"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/spotify.php:34
+msgid "Artist Follower Widget"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/spotify.php:80
+msgid "Note:"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/spotify.php:80
+msgid "To add follow widget, please add '%s:follow_widget%s' to the end of an artist URL. For details, check out this %s documentation%s."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:17
+msgid "Twitch Settings"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:48
+msgid "Show Chat"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:61
+msgid "You can show or hide chat using this setting"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:74
+msgid "Set dark or light theme for the twitch comment."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:78
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:106
+msgid "Enable Fullscreen Button"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:90
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:118
+msgid "Indicates whether the fullscreen button is enabled."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:94
+msgid "Mute On Start"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/twitch.php:106
+msgid "Set it to Yes to mute the video on start."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:19
+msgid "Vimeo Settings"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:50
+msgid "Loop"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:63
+msgid "Play the video again automatically when it reaches the end."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:67
+msgid "Auto Pause"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:80
+msgid "Pause this video automatically when another one plays."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:84
+msgid "DNT"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:97
+msgid "Setting this parameter to \"yes\" will block the player from tracking any session data, including all cookies."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:101
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:133
+msgid "Color"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:109
+msgid "Display Title"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:121
+msgid "Indicates whether the title is displayed."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:125
+msgid "Display Author"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:137
+msgid "Indicates whether the author is displayed."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:141
+msgid "Display Avatar"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/vimeo.php:153
+msgid "Indicates whether the avatar is displayed."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:23
+msgid "Wistia Settings"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:51
+msgid "Indicates whether the fullscreen button is visible."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:55
+msgid "Playbar"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:67
+msgid "Indicates whether the playbar is visible."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:83
+msgid "Indicates whether the small play button is visible on the bottom left."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:87
+msgid "Volume Control"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:100
+msgid "Indicates whether the volume control is visible."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:105
+msgid "Volume"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:109
+msgid "Start the video with a custom volume level. Set values between 0 and 100."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:141
+msgid "Plugin: Resumable"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:153
+msgid "Indicates whether the Resumable plugin is active. Allow to resume the video or start from the beginning."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:157
+msgid "Plugin: Captions"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:170
+msgid "Indicates whether the Captions plugin is active."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:187
+msgid "Indicates whether the Captions are enabled by default."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:203
+msgid "Indicates whether the Focus plugin is active."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:207
+msgid "Plugin: Rewind"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:219
+msgid "Indicates whether the Rewind plugin is active."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:223
+msgid "Rewind Time (In Seconds)"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/wistia.php:226
+msgid "The amount of time to rewind, in seconds."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:30
+msgid "YouTube Settings"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:70
+msgid "Specifies the color that will be used in the player's video progress bar to highlight the amount of the video that the viewer has already seen. %s Note: Setting the color to white will disable the Modest Branding option (causing a YouTube logo to be displayed in the control bar)."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:74
+msgid "Force Closed Captions"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:88
+msgid "Setting this option to %s causes closed captions to be shown by default, even if the user has turned captions off. This will be based on user preference otherwise."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:92
+msgid "Display Controls"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:122
+msgid "Display Video Annotations"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:131
+msgid "Indicates whether video annotations are displayed."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:135
+msgid "Display Related Videos"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:140
+msgid "From the same channel of the video"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:141
+msgid "Based on User's watch history"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:144
+msgid "Indicates how the player should show related videos when playback of the video pauses or ends."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:150
+msgid "Modest Branding"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:161
+msgid "Indicates whether the player should display a YouTube logo in the control bar."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:167
+msgid " Live Chat"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:181
+msgid "Enabling this option will show chat on all YouTube videos. However, YouTube Live Chat feature only works with Live Streaming videos."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:186
+msgid "Subscription Button"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:189
+msgid "Channel Link or ID"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:193
+msgid "You can use either your channel link or channel ID to show the subscription button."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:200
+msgid "Subscription Text"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:204
+msgid "Optionally you can output some CTA text before the subscriber button."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:211
+msgid "Layout"
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:222
+msgid "Full layout shows channel image. Default layout shows only channel name and subscription button."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:238
+msgid "Default theme is good for white background. Dark theme is good for black background."
+msgstr ""
+
+#: EmbedPress/Ends/Back/Settings/templates/youtube.php:243
+msgid "Show Subscriber Count"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Notice.php:437
+msgid "Install Now!"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:377
+msgid "We can't detect any plugin information. This is most probably because you have not included the code in the plugin main file."
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:646
+msgid "What we collect."
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:647
+msgid "Sure, I'd like to help"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:648
+msgid "No Thanks."
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:741
+msgid "Sorry to see you go"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:742
+msgid "Before you deactivate the plugin, would you quickly give us your reason for doing so?"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:745
+msgid "I no longer need the plugin"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:747
+msgid "I found a better plugin"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:748
+msgid "Please share which plugin"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:750
+msgid "I couldn't get the plugin to work"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:751
+msgid "It's a temporary deactivation"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:753
+msgid "Other"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:754
+msgid "Please share the reason"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:796
+msgid "Submitting form"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:854
+msgid "Submit and Deactivate"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/EmbedPress_Plugin_Usage_Tracker.php:854
+msgid "Just Deactivate"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/Feature_Enhancer.php:385
+#: EmbedPress/Includes/Classes/Feature_Enhancer.php:734
+#: Gutenberg/plugin.php:55
+msgid "Watch from the beginning"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/Feature_Enhancer.php:386
+#: EmbedPress/Includes/Classes/Feature_Enhancer.php:735
+#: Gutenberg/plugin.php:56
+msgid "Skip to where you left off"
+msgstr ""
+
+#: EmbedPress/Includes/Classes/Feature_Enhancer.php:387
+#: EmbedPress/Includes/Classes/Feature_Enhancer.php:736
+#: Gutenberg/plugin.php:57
+msgid "It looks like you've watched<br />part of this video before!"
+msgstr ""
+
+#: EmbedPress/Includes/Traits/Shared.php:26
+msgid "Want to help make <strong>EmbedPress</strong> even more awesome? You can get a <strong>10% discount coupon</strong> for Premium extensions if you allow us to track the usage."
+msgstr ""
+
+#: EmbedPress/Includes/Traits/Shared.php:27
+msgid ""
+"We collect non-sensitive diagnostic data and plugin usage information.\n"
+"            Your site URL, WordPress & PHP version, plugins & themes and email address to send you the\n"
+"            discount coupon. This data lets us make sure this plugin always stays compatible with the most\n"
+"            popular plugins and themes. No spam, I promise."
+msgstr ""
+
+#: EmbedPress/Includes/Traits/Shared.php:59
+msgid "Ok, you deserve it!"
+msgstr ""
+
+#: EmbedPress/Includes/Traits/Shared.php:64
+msgid "I already did"
+msgstr ""
+
+#: EmbedPress/Includes/Traits/Shared.php:72
+msgid "Maybe Later"
+msgstr ""
+
+#: EmbedPress/Includes/Traits/Shared.php:80
+msgid "I need help"
+msgstr ""
+
+#: EmbedPress/Includes/Traits/Shared.php:85
+msgid "Never show again"
+msgstr ""
+
+#: EmbedPress/Includes/Traits/Shared.php:97
+msgid "We hope you're enjoying EmbedPress! Could you please do us a BIG favor and give it a 5-star rating on WordPress to help us spread the word and boost our motivation?"
+msgstr ""
+
+#: EmbedPress/Includes/Traits/Shared.php:110
+msgid "You are using an incompatible version of EmbedPress PRO. Please update to v3.4.0+. <a href=\"https://essential-addons.com/elementor/docs/manually-update-essential-addons-pro/\" target=\"_blank\">Follow manual update guide.</a>"
+msgstr ""
+
+#: EmbedPress/Includes/Traits/Shared.php:116
+msgid "EmbedPress 3.0 is here with new features and options, read the details <a href=\"https://wpdeveloper.net/introducing-embedpress-3.0\" target=\"_blank\">here</a>, and check the new setting page. <a href=\""
+msgstr ""
+
+#: EmbedPress/Includes/Traits/Shared.php:122
+msgid "Learn More"
+msgstr ""
+
+#: EmbedPress/Providers/Boomplay.php:78
+msgid "Embedding Boomplay playlists and albums are supported in EmbedPress Pro"
+msgstr ""
+
+#: EmbedPress/Providers/Boomplay.php:78
+msgid "This message is only visible to you."
+msgstr ""
+
+#: Gutenberg/src/document/edit.js:198
+msgid "Embed Size"
+msgstr ""

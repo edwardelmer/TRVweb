@@ -1,0 +1,20 @@
+[14-Dec-2022 17:00:02 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home/u1471677/public_html/crew/core/codon.config.php on line 40
+[14-Dec-2022 17:00:02 UTC] PHP Deprecated:  Optional parameter $key declared before required parameter $value is implicitly treated as a required parameter in /home/u1471677/public_html/crew/core/classes/Config.class.php on line 54
+[14-Dec-2022 17:00:02 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/u1471677/public_html/crew/core/classes/CodonRewrite.class.php on line 75
+[14-Dec-2022 17:00:02 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/u1471677/public_html/crew/core/classes/CodonRewrite.class.php on line 78
+[14-Dec-2022 17:00:02 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u1471677/public_html/crew/core/classes/CodonRewrite.class.php on line 100
+[14-Dec-2022 17:00:02 UTC] PHP Deprecated:  parse_str(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u1471677/public_html/crew/core/classes/CodonRewrite.class.php on line 134
+[14-Dec-2022 17:00:02 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "Y" in /home/u1471677/public_html/crew/admin/templates/hubtransfer/hubtransfer_admin_sidebar.php:7
+Stack trace:
+#0 /home/u1471677/public_html/crew/core/classes/TemplateSet.class.php(238): include()
+#1 /home/u1471677/public_html/crew/core/classes/TemplateSet.class.php(119): TemplateSet->getTemplate('hubtransfer/hub...', true)
+#2 /home/u1471677/public_html/crew/core/classes/Template.class.php(78): TemplateSet->set('sidebar', 'hubtransfer/hub...')
+#3 /home/u1471677/public_html/crew/core/classes/CodonModule.class.php(84): Template::set('sidebar', 'hubtransfer/hub...')
+#4 /home/u1471677/public_html/crew/admin/modules/HubTransfer/HubTransfer.php(24): CodonModule->set('sidebar', 'hubtransfer/hub...')
+#5 /home/u1471677/public_html/crew/core/classes/MainController.class.php(270): HubTransfer->HTMLHead()
+#6 /home/u1471677/public_html/crew/core/classes/MainController.class.php(142): MainController::Run('HUBTRANSFER', 'HTMLHead')
+#7 /home/u1471677/public_html/crew/core/classes/MainController.class.php(57): MainController::loadModules()
+#8 /home/u1471677/public_html/crew/core/codon.config.php(138): MainController::loadEngineTasks()
+#9 /home/u1471677/public_html/crew/admin/maintenance.php(25): include('/home/u1471677/...')
+#10 {main}
+  thrown in /home/u1471677/public_html/crew/admin/templates/hubtransfer/hubtransfer_admin_sidebar.php on line 7

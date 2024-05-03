@@ -1,0 +1,28 @@
+RewriteEngine On 
+RewriteCond %{HTTPS_HOST} crew.theredsvirtual.com [NC]
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.crew.theredsvirtual.com/$1 [R,L]
+Header always set Content-Security-Policy: upgrade-insecure-requests
+
+# Some basic security for phpVMS files
+# Thanks to mark1million
+
+Options All -Indexes 
+
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|fla|psd|log|sh|tpl)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+# main page of the site
+DirectoryIndex index.php
+
+# prevent viewing of a specific file
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|fla|psd|log|sh|tpl)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+# prevent viewing of index
+Options -Indexes
+

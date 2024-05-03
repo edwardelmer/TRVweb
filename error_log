@@ -1,0 +1,11 @@
+[16-Dec-2021 23:26:13 UTC] PHP Deprecated:  define(): Declaration of case-insensitive constants is deprecated in /home/u1471677/public_html/crew/core/classes/ezdb/ezdb_base.class.php on line 45
+[16-Dec-2021 23:26:13 UTC] PHP Deprecated:  define(): Declaration of case-insensitive constants is deprecated in /home/u1471677/public_html/crew/core/classes/ezdb/ezdb_base.class.php on line 46
+[16-Dec-2021 23:26:13 UTC] PHP Deprecated:  define(): Declaration of case-insensitive constants is deprecated in /home/u1471677/public_html/crew/core/classes/ezdb/ezdb_base.class.php on line 47
+[16-Dec-2021 23:26:14 UTC] PHP Deprecated:  define(): Declaration of case-insensitive constants is deprecated in /home/u1471677/public_html/crew/core/classes/ezdb/ezdb_base.class.php on line 45
+[16-Dec-2021 23:26:14 UTC] PHP Deprecated:  define(): Declaration of case-insensitive constants is deprecated in /home/u1471677/public_html/crew/core/classes/ezdb/ezdb_base.class.php on line 46
+[16-Dec-2021 23:26:14 UTC] PHP Deprecated:  define(): Declaration of case-insensitive constants is deprecated in /home/u1471677/public_html/crew/core/classes/ezdb/ezdb_base.class.php on line 47
+[07-Apr-2022 14:24:03 UTC] PHP Deprecated:  Required parameter $value follows optional parameter $key in /home/u1471677/public_html/crew/core/classes/Config.class.php on line 54
+[07-Apr-2022 14:24:04 UTC] PHP Deprecated:  Required parameter $value follows optional parameter $key in /home/u1471677/public_html/crew/core/classes/Config.class.php on line 54
+[14-Dec-2022 17:01:12 UTC] PHP Deprecated:  Optional parameter $key declared before required parameter $value is implicitly treated as a required parameter in /home/u1471677/public_html/crew/core/classes/Config.class.php on line 54
+[14-Dec-2022 17:01:12 UTC] PHP Deprecated:  explode(): Passing null to parameter #2 ($string) of type string is deprecated in /home/u1471677/public_html/crew/core/classes/CodonRewrite.class.php on line 78
+[14-Dec-2022 17:01:12 UTC] PHP Deprecated:  strtolower(): Passing null to parameter #1 ($string) of type string is deprecated in /home/u1471677/public_html/crew/core/classes/CodonRewrite.class.php on line 100
